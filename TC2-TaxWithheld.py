@@ -24,6 +24,7 @@ def main():
 
     # Name of program
     print("Tax Withholding Calculator")
+    print("")
 
     # Prompt uset to enter full amount of weekly salary
     salary = float(input("Please enter the full amount of your weekly salary:"))
@@ -31,6 +32,7 @@ def main():
 
     # Ask users for how many dependants they have
     dependants = int(input("How many dependants do you have?:"))
+    print("")
 
     #Calculations
     provincialWithheld = salary * provincialPercent
